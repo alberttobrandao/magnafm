@@ -6,8 +6,8 @@ development:
   adapter: postgresql
   database: magna
   pool: 5
-  username: postgres
-  password: 
+  username: mudeme
+  password:
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -18,8 +18,8 @@ test: &TEST
   adapter: postgresql
   database: magna_test
   pool: 5
-  username: postgres
-  password: 
+  username: mudeme
+  password:
 
 production:
   host: localhost
@@ -27,8 +27,8 @@ production:
   adapter: postgresql
   database: magna
   pool: 5
-  username: rafael
-  password: escobar
+  username: mudeme
+  password:
 
 cucumber:
   <<: *TEST
